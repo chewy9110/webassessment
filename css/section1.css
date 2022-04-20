@@ -1,0 +1,54 @@
+ /*  
+ JFSD Assessment 02 - HTML, CSS
+ Author : Chew KB
+ Date   : 20/04/2022 
+ */
+
+ /* section 1 */
+ .s1  {
+     background-color: gray;
+      display:flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.s1_left {
+    flex-basis: 60%;
+    margin: 24px;
+ 
+}
+
+.s1_left img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; /* set to 'auto' in IE11 to avoid distortions */
+}
+
+.s1_right {
+    
+     background-color: grey;
+     padding:24px;  
+}
+   
+.s1_right h4 {
+    margin-top:16px;  
+    margin-bottom:16px;
+}
+
+.s1_right h1,.s1_right h4 {
+    padding : 8px 0 8px 0;
+}
+
+.s1_right button {
+    font-size: 16px; /*8px too small*/
+    border:none;
+    background-color: #01161E;
+    color:white;
+   
+     width:60%;
+     padding:3px;
+}
+
+
+ 

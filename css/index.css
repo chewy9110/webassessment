@@ -1,0 +1,136 @@
+/*  
+ JFSD Assessment 02 - HTML, CSS
+ Author : Chew KB
+ Date   : 20/04/2022 
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  Helvetica, Arial, sans-serif;
+    background-color: white;
+    font-size :16px;
+    color: #989898;
+
+ }
+ 
+/* Common CSS Style */
+
+h1 { font-size: 30px;}
+h2 { font-size: 24px; }
+h3 { font-size: 22px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 {
+     color: #4F4F4F;
+     padding:16px;  
+}
+
+p {
+    color: #4F4F4F;
+    font-size: 15px;
+    padding:16px;
+}
+
+.text-center {
+  text-align : center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+/* desktop */
+
+/* header */
+header {
+    display:flex;
+    align-items:center;
+    width:100%;
+    height:64px;
+  
+    padding : 0 24px 0 24px;  
+    background-color: white;
+}
+
+header  img {
+    height: 32px;
+}
+
+/* title : size h5*/
+#span_logotitle {
+    color:#9f9b9b;
+}
+
+.logo_title {
+   color:#01161E;
+}
+
+
+header  nav{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;   
+    height:100%;  ;
+    width:100%;  
+  } 
+
+
+ header nav > a {
+    text-decoration: none;
+     
+    color:#9f9b9b;
+    text-align:center;
+    padding-right:16px;
+ }
+
+ header nav > a:hover {
+   
+      opacity: 0.3;  
+   }
+   
+ 
+
+/* footer */
+
+footer {
+    display:flex;
+    align-items:center;
+    width:100%;
+    height:64px;
+  
+    padding : 0 16px 0 16px;  
+    background-color: white;
+}
+
+footer  nav{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;   
+    height:100%;  
+    width:100%;  
+
+   
+  } 
+
+
+  footer nav > a {
+    text-decoration: none;
+     
+    color:#9f9b9b;
+    text-align:center;
+    padding-right:16px;
+ }
+
+ footer nav > a:hover {
+      opacity: 0.3;  
+   }
+   
+footer div {
+    width : 40%;
+}
+
